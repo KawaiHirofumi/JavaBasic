@@ -13,15 +13,20 @@ public class PTra02_09 {
 
 		// ★ 変数quadrangleに、四角形の面積を代入してください
 
+		int guadrangle;
+		guadrangle = (length*height);
 
 		// ★ 変数quadrangleを出力してください
 
+		System.out.println(guadrangle);
 
 		// ★ 変数triangleに、三角形の面積を代入してください
 
+		int triangle;
+		triangle = (length*height)/2;
 
 		// ★ 変数triangleを出力してください
 
-
+		System.out.println(triangle);
 	}
 }
