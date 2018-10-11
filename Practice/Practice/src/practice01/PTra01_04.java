@@ -1,4 +1,5 @@
 package practice01;
+
 /*
  * PTra01_04.java
  *   作成	LIKEIT	2017
@@ -9,14 +10,13 @@ package practice01;
 public class PTra01_04 {
 	public static void main(String[] args) {
 
-		// ★ float型の変数 f を宣言してください
+		Float f; // ★ float型の変数 f を宣言してください
 
+		f = 3.14F;// ★ 変数 f に 3.14 を代入してください
 
-		// ★ 変数 f に 3.14 を代入してください
-
+		System.out.println(f);
 
 		// ★ 変数 f を出力してください
-
 
 	}
 }
