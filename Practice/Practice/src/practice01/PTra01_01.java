@@ -12,6 +12,8 @@ public class PTra01_01 {
         // ★このJavaプログラムを変更して、「Welcome!Java」と出力（コマンドプロンプトに表示）してください
         System.out.println("WelcomeJava!");
 
+        System.out.println();
+
 
     }
 }
