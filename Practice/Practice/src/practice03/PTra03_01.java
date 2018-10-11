@@ -10,10 +10,15 @@ public class PTra03_01 {
 	public static void main(String[] args) {
 		// ★ int型の変数numを宣言し、70で初期化してください
 
+		int num = 700;
 
 		// ★ 「変数numが70である」という条件式を追加してください
-		if() {
+		if (num == 70) {
+
 			System.out.println("条件に合致しました");
+		} else {
+
+			System.out.println("条件に不一致しました");
 		}
 	}
 }
