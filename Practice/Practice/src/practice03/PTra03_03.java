@@ -21,9 +21,11 @@ public class PTra03_03 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
 
+		boolean lu = num % 3 == 0;
+
 		//---------------------ここから本題-----------------------
 		// ★ 入力された値が、3で割り切れる数字か判定する条件式を記述してください
-		if () {
+		if (lu == true) {
 			System.out.println("3で割り切れる数字です");
 		} else {
 			System.out.println("3で割り切れない数字です");
