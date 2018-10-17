@@ -21,13 +21,11 @@ public class PTra03_07 {
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
 
-		if(条件1){
-			  命令1
-			}else if(条件2){
-			  命令2
-			}else{
-			  命令3
-			}
+		if ((num >= 1) && (num <= 5)) {
+			System.out.println(num);
+		} else {
+			System.out.println("選択したのは、１～5以外です");
+		}
 
 		//---------------------ここから本題-----------------------
 		/*
@@ -38,7 +36,6 @@ public class PTra03_07 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
 
 	}
 }
