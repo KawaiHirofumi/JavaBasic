@@ -26,6 +26,7 @@ public class PTra04_05 {
 			String line = scanner.nextLine();
 
 			// 文字列を数字に変換して、変数numに代入します
+
 			// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになり、プログラムが終了します
 			int myHand = Integer.parseInt(line);
 
@@ -44,23 +45,57 @@ public class PTra04_05 {
 			 *
 			 * ※ プログラムは何行書いても良いです
 			 */
+
+			//グーのブロック
+
 			if (cpuHand == 0) {
 				System.out.println("グー！");
-
-
-
-			} else if (cpuHand == 1) {
-				System.out.println("チョキ！！");
-
-
-
-			} else {
-				System.out.println("パー！！");
-
-
-
+				if (myHand == 0) {
+					System.out.println("あいこ");
+					//あいこ
+				} else if (myHand == 1) {
+					System.out.println("まけ");
+					//まけ
+				} else {
+					System.out.println("かち");
+					winFlg = true;
+					//かち
+				}
 			}
 
+			//チョキのブロック
+
+			if (cpuHand == 1) {
+				System.out.println("チョキ！");
+				if (myHand == 0) {
+					System.out.println("かち！");
+					winFlg = true;
+					//かち
+				} else if (myHand == 1) {
+					System.out.println("あいこ！");
+					//あいこ
+				} else {
+					System.out.println("まけ！");
+					//まけ
+				}
+			}
+
+			//パーのブロック
+
+			if (cpuHand == 2) {
+				System.out.println("パー！");
+				if (myHand == 0) {
+					System.out.println("まけ！");
+					//まけ
+				} else if (myHand == 1) {
+					System.out.println("かち！");
+					winFlg = true;
+					//かち
+				} else {
+					//あいこ
+					System.out.println("あいこ！");
+				}
+			}
 		}
 	}
 }
