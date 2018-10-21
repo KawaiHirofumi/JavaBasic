@@ -11,11 +11,21 @@ public class PTra07_04 {
 
 		// ★ int型の配列trumpを宣言し、52個の領域を確保してください
 
+		int[] trump = new int[52];
 
 		// ★ 配列trumpに、[1,2,3,4,5,・・・・,52] を代入してください
 
+		for (int i = 0; i < 52; i++) {
+			trump[i] = i+1;
+		}
 
 		// ★ 0～51の中からランダムで値を取得して、変数indexに代入してください
+
+	    Random rand = new Random();
+	    int num = rand.nextInt(10) + 100;
+	    System.out.println(num);
+	  }
+	}
 
 
 		// ★ 配列trumpのindex番目の中に入っている数字を出力してください
