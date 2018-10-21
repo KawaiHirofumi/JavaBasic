@@ -11,8 +11,19 @@ public class PTra07_03 {
 
 		// ★ char型の配列keywordを定義し 「'平', '島', '沼', '山', '森'」 で初期化してください
 
+		 char  taira ='平';
+	     char  shima= '島';
+	     char  numa = '沼';
+	     char  yama = '山';
+	     char  keyword5 = '森';
 
 		// ★ 配列keywordに格納されている値を後ろから順番に全て表示してください
 
+	     System.out.println('平');
+	     System.out.println('島');
+	     System.out.println('沼');
+	     System.out.println('山');
+	     System.out.println('森');
+	     
 	}
 }
