@@ -30,7 +30,7 @@ public class PTra08_01 {
 	 */
 
 	public static int number() {
-		return 100;
+		return (100);
 
 	}
 }
