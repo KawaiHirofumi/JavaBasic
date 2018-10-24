@@ -14,8 +14,11 @@ public class PTra08_02 {
 
 		// ★ 変数receiveを宣言して、averageメソッドを（変数x, 変数y）で呼び出した結果を代入してください
 
+		String receive = average(x,y);
 
 		// ★ 変数receiveを出力してください
+
+		System.out.println(receive);
 
 	}
 
@@ -30,8 +33,31 @@ public class PTra08_02 {
 	 */
 	public static String average(int x, int y) {
 
-		String result = "平均は：" + ((x + y) / 2);
+		String result ="平均値は"+((x + y) / 2);
 		return result;
 
 	}
 }
+
+
+///*
+// * 以下の仕様でメソッドを作成しました
+// *
+// * 戻り値		：int
+// * メソッド名	：number
+// * 引数			：なし
+// *
+// * 100を返すメソッド
+// */
+//
+//public static int number() {
+//	return 100;
+//
+//}
+//}
+
+
+
+
+
+
