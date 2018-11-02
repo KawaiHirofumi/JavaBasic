@@ -2,9 +2,11 @@ package practice10;
 
 public class User {
 
-		  int userID;
-		  String userNm;
-		  String mail;
-		  String password;
+		  public int userId;
+		  int userID;	//ユニークID
+		  String userNm; //ユーザーの名前
+		  String mail; //メールアドレス
+		  String password;//パスワード
 
 }
+
